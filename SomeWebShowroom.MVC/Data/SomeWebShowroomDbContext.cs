@@ -27,12 +27,12 @@ namespace SomeWebShowroom.MVC.Data
                 .HasOne(up => up.User)
                 .WithMany(b => b.UserProducts)
                 .HasForeignKey(bc => bc.UserId)
-                .OnDelete(DeleteBehavior.NoAction);
+                .OnDelete(DeleteBehavior.Cascade);
             modelBuilder.Entity<UserProducts>()
                 .HasOne(up => up.Product)
                 .WithMany(c => c.UserProducts)
                 .HasForeignKey(up => up.ProductId)
-                .OnDelete(DeleteBehavior.NoAction);
+                .OnDelete(DeleteBehavior.Cascade);
 
             base.OnModelCreating(modelBuilder);
         }

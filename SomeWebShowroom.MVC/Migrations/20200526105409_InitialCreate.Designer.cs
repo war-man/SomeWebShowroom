@@ -9,7 +9,7 @@ using SomeWebShowroom.MVC.Data;
 namespace SomeWebShowroom.MVC.Migrations
 {
     [DbContext(typeof(SomeWebShowroomDbContext))]
-    [Migration("20200523182427_InitialCreate")]
+    [Migration("20200526105409_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -301,13 +301,13 @@ namespace SomeWebShowroom.MVC.Migrations
                     b.HasOne("SomeWebShowroom.MVC.Models.Product", "Product")
                         .WithMany("UserProducts")
                         .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("SomeWebShowroom.MVC.Models.User", "User")
                         .WithMany("UserProducts")
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 #pragma warning restore 612, 618

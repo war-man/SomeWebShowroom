@@ -299,13 +299,13 @@ namespace SomeWebShowroom.MVC.Migrations
                     b.HasOne("SomeWebShowroom.MVC.Models.Product", "Product")
                         .WithMany("UserProducts")
                         .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("SomeWebShowroom.MVC.Models.User", "User")
                         .WithMany("UserProducts")
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 #pragma warning restore 612, 618
