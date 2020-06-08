@@ -10,6 +10,7 @@
             yield return new object[] { "Identity/register", "Register"};
             yield return new object[] { "Identity/login", "Login" };
             yield return new object[] { "products", "Browse Products" };
+            yield return new object[] { "products/details/2", "Details" };
         }
 
         IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
