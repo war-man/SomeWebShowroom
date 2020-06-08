@@ -245,4 +245,5 @@ C:\Programming\Projects\SomeWebShowroom\SomeWebShowroom.Test\obj\Debug\netcoreap
 C:\Programming\Projects\SomeWebShowroom\SomeWebShowroom.Test\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Programming\Projects\SomeWebShowroom\SomeWebShowroom.Test\bin\Debug\netcoreapp3.1\Moq.dll
 C:\Programming\Projects\SomeWebShowroom\SomeWebShowroom.Test\bin\Debug\netcoreapp3.1\WebDriver.dll
+C:\Programming\Projects\SomeWebShowroom\SomeWebShowroom.Test\bin\Debug\netcoreapp3.1\WebDriver.Support.dll
 C:\Programming\Projects\SomeWebShowroom\SomeWebShowroom.Test\obj\Debug\netcoreapp3.1\SomeWebShowroom.Test.csproj.CoreCompileInputs.cache
