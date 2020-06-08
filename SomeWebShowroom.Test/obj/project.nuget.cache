@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BkWAVPd/h+4bdHFDv0DgC3P544ulw0ghsfJsqyzzZETthcpkcJuEkcLAIyekhw/LBMHn1Sn1C6Tv8ff4+HLJ5g==",
+  "dgSpecHash": "OfAupqOlygiMf2aIz9E4TOpEKyyyNxs+kyuErpVW8B8c4JIsKmaUt+xzI29wXtVlap53TYEZKcz4R7uWahYX4Q==",
   "success": true,
   "projectFilePath": "C:\\Programming\\Projects\\SomeWebShowroom\\SomeWebShowroom.Test\\SomeWebShowroom.Test.csproj",
   "expectedPackageFiles": [
@@ -95,6 +95,8 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Radoslav Naydenov\\.nuget\\packages\\selenium.chrome.webdriver\\83.0.0\\selenium.chrome.webdriver.83.0.0.nupkg.sha512",
+    "C:\\Users\\Radoslav Naydenov\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
     "C:\\Users\\Radoslav Naydenov\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.2\\sqlitepclraw.bundle_e_sqlite3.2.0.2.nupkg.sha512",
     "C:\\Users\\Radoslav Naydenov\\.nuget\\packages\\sqlitepclraw.core\\2.0.2\\sqlitepclraw.core.2.0.2.nupkg.sha512",
     "C:\\Users\\Radoslav Naydenov\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.2\\sqlitepclraw.lib.e_sqlite3.2.0.2.nupkg.sha512",
